@@ -1,0 +1,21 @@
+{
+  "name": "simple",
+  "dependencies": {
+    "npm-watch": "^0.7.0",
+    "ol": "^6.4.3"
+  },
+  "devDependencies": {
+    "parcel": "1.12.3"
+  },
+  "resolutions": {
+    "@babel/parser": "7.3.0"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --experimental-scope-hoisting --public-url . index.html",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": "src/*/*.js"
+  }
+}

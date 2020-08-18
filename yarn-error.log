@@ -1,0 +1,53 @@
+Arguments: 
+  /home/telefonica/.nvm/versions/node/v10.12.0/bin/node /home/telefonica/.yarn/bin/yarn.js add usecases
+
+PATH: 
+  /home/telefonica/.nvm/versions/node/v10.12.0/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/telefonica/Documentos/maps_lau/healthy_places/simple_map/node_modules/.bin:/opt/apache-maven-3.6.3/bin:/home/telefonica/.yarn/bin:/home/telefonica/.config/yarn/global/node_modules/.bin:/opt/apache-maven-3.6.3/bin:/home/telefonica/.yarn/bin:/home/telefonica/.config/yarn/global/node_modules/.bin:/home/telefonica/.nvm/versions/node/v10.12.0/bin:/bin:/usr/local/go/bin:/home/telefonica/.local/bin:/home/telefonica/.rvm/gems/ruby-2.5.7/bin:/home/telefonica/.rvm/gems/ruby-2.5.7@global/bin:/usr/share/rvm/rubies/ruby-2.5.7/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/jdk1.8.0_241/bin:/usr/lib/jvm/jdk1.8.0_241/db/bin:/usr/lib/jvm/jdk1.8.0_241/jre/bin:/snap/bin:/usr/share/rvm/bin:/bin:/home/telefonica/go/bin:/usr/local/go/bin:/home/telefonica/go/bin:/home/telefonica/.fzf/bin:/usr/local/go/bin:/home/telefonica/go/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.12.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.npmjs.org/usecases: Not found
+      at Request.params.callback [as _callback] (/home/telefonica/.yarn/lib/cli.js:66987:18)
+      at Request.self.callback (/home/telefonica/.yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/home/telefonica/.yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/home/telefonica/.yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "simple",
+    "dependencies": {
+      "npm-watch": "^0.7.0",
+      "ol": "^6.4.3"
+    },
+    "devDependencies": {
+      "parcel": "1.11.0"
+    },
+    "scripts": {
+      "start": "parcel index.html",
+      "build": "parcel build --experimental-scope-hoisting --public-url . index.html",
+      "watch": "npm-watch"
+    },
+    "watch": {
+      "test": "{src,test}/*.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
