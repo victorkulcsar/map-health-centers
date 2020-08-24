@@ -1,0 +1,45 @@
+{
+    "data": {
+        "bairros": [
+            {
+                "id": 1,
+                "nome": "bela-vista",
+                "centros": [
+                    {
+                        "id": 1,
+                        "nome": "UBS HUMAITÁ - DR. JOÃO DE AZEVEDO LAGE",
+                        "endereco": "R. HUMAITÁ, 520 - BELA VISTA",
+                        "cep": "01321-010",
+                        "fone": "3241-1632",
+                        "local": {
+                            "lat": -23.556986,
+                            "lon": -46.6427445
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "nome": "HM INFANTIL MENINO JESUS",
+                        "endereco": "R. DOS INGLESES, 258 - BELA VISTA",
+                        "cep": "01329-000",
+                        "fone": "3253-5200",
+                        "local": {
+                            "lat": -23.333641,
+                            "lon": -46.385071
+                        }
+                    },
+                    {
+                        "id": 3,
+                        "nome": "UBS NOSSA SENHORA DO BRASIL - ARMANDO D ARIENZO",
+                        "endereco": "R. ALM. MARQUES LEÃO, 684 – MORRO DOS INGLESES",
+                        "cep": "01330-010",
+                        "fone": "3284-4601",
+                        "local": {
+                            "lat": -23.334571,
+                            "lon": -46.385731
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

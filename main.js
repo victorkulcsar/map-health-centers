@@ -1,9 +1,9 @@
 import ObjMap from '/src/model/map.js';
 
-const { generatePoints } = require ('/src/usecases/generatePoints.js');
+const { PointsLayer } = require ('/src/usecases/PointsLayer.js');
 
 //console.log(ObjMap.map.getLayers());
-const Point = generatePoints(-23.5489,-46.6388);
+const Point = PointsLayer.generatePointsLayer();
 //console.log(Point);
 ObjMap.map.addLayer(Point);
 
