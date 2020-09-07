@@ -11,12 +11,12 @@ export default {
             new TileLayer({
                 source: new OSM(),
             })],
-        target: 'map',
+        target: document.getElementById('map'),
         view: new View({
             center: olProj.transform([-46.6388, -23.5489], 'EPSG:4326', 'EPSG:3857'),
             zoom: 13,
         }),
     }),
 
-    
+
 }
